@@ -1,0 +1,66 @@
+/* Keep a consistent look for most screen sizes. */
+@media (min-width: 768px) {
+  .box {
+    width: 720px;
+  }
+}
+
+body {
+  font-family: 'Open Sans', 'Helvetica', sans-serif;
+  font-size: 2em;
+  color: #c4c4c4;
+  background-color: #1c1c1c;
+  text-align: left;
+}
+
+/* One container for everything we render. */
+.box {
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: auto
+}
+
+/* Headers for each api subsection. */
+h2 {
+  margin-bottom: .5em;
+}
+
+/* For our URL and header info. */
+.code {
+  font-family: monospace;
+}
+
+form {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+label {
+  clear: left;
+  text-align: right;
+}
+
+input {
+  display: block;
+  font-family: 'Open Sans', 'Helvetica', sans-serif;
+  font-size: .8em;
+  padding: .2em .4em;
+  margin: .2em 0;
+}
+
+/* Make our submit button look nicer. */
+input[type=submit] {
+  display: block;
+  font-family: 'Open Sans', 'Helvetica', sans-serif;
+  font-size: .8em;
+  padding: .5em 1em;
+  margin: 1em 0;
+}
+
+/* Make our api response area look nicer. */
+textarea {
+  width: 95%;
+  height: 15em;
+  font-size: .7em;
+  padding: .5em .5em;
+}
